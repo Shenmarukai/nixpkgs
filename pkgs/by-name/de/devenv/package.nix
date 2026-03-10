@@ -45,7 +45,7 @@ rustPlatform.buildRustPackage {
   inherit version;
 
   src = fetchFromGitHub {
-    owner = "cachix";
+    owner = "Shenmarukai";
     repo = "devenv";
     tag = "v${version}";
     hash = "sha256-1DpF5F7zgOZ7QrRjz23315pUoF532dHnsU/V4UQithk=";
