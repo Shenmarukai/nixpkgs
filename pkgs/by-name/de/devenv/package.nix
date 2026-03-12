@@ -47,7 +47,7 @@ rustPlatform.buildRustPackage {
   src = fetchFromGitHub {
     owner = "Shenmarukai";
     repo = "devenv";
-    rev = "feat/opencode";
+    rev = "6c6571d96c9f034d048ae68ac6a221e7f5404743";
     hash = "sha256-1DpF5F7zgOZ7QrRjz23315pUoF532dHnsU/V4UQithk=";
   };
 
